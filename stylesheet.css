@@ -1,0 +1,340 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+#main {
+	position: relative;
+	overflow: hidden;
+}
+#page {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: antiquewhite;
+}
+#page > img {
+	position: absolute;
+	right: 5%;
+	top: 52%;
+	transform: translateY(-50%);
+	width: 50%;
+}
+#page > #nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+	position: absolute;
+	z-index: 9;
+	height: 10%;
+	width: 100%;
+}
+#center-nav {
+	display: flex;
+	gap: 20px;
+	text-align: center;
+}
+#center-nav > a {
+	text-decoration: none;
+	color: brown;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+}
+#nav > input {
+	padding: 10px 5px;
+	border-radius: 10px;
+	border: 1px solid #dadada;
+	text-transform: uppercase;
+}
+#text {
+	padding: 30px 50px;
+	position: relative;
+	top: 18%;
+	left: 8%;
+	height: 75%;
+	width: 35%;
+	scale: 1.1;
+}
+#text > h1 {
+	font-size: 60px;
+	line-height: 1;
+	margin-top: 20px;
+}
+#text > h4 {
+	margin-top: 30px;
+	color: #2b2b2b;
+	font-size: 17px;
+	font-weight: 500;
+}
+#buttons {
+	position: absolute;
+	left: 0%;
+	bottom: 18%;
+	height: 20%;
+	width: 80%;
+}
+#buttons > button {
+	padding: 12px 22px;
+	border-radius: 10px;
+	border: none;
+	font-weight: 500;
+}
+#buttons > button > a {
+	font-size: 20px;
+	color: wheat;
+}
+#buttons > #b2 {
+	margin-left: 20px;
+	background-color: black;
+}
+#page1 {
+	position: relative;
+	min-height: 50vh; /* Adjusted to reduce height */
+	width: 100vw;
+	background-color: #929bb6;
+	padding: 20px; /* Reduced padding size */
+}
+table {
+	font-family: Arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: rgb(242, 236, 235);
+}
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+#page1 > #right {
+	position: relative; /* Changed from absolute */
+	padding: 20px; /* Adjust padding if needed */
+	width: 100%;
+}
+#page1 > .box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 20px;
+	width: 100%;
+	border-top: 2px solid #000;
+	margin-top: 20px; /* Adjust margin to add space above */
+}
+.box > h4 {
+	font-size: 30px;
+}
+.box > h1 {
+	font-size: 35px;
+}
+.box > p {
+	margin-left: 20px;
+}
+.end {
+	background-color: #bfa3b4;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.Contact.me p {
+	font-size: 3.1rem;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	font-weight: bolder;
+	font-size: 100px;
+}
+.Contact.me h2 {
+	font-size: 50px;
+}
+.Contact.me {
+	width: 100%;
+	height: 570px;
+	font-weight: bold;
+	position: relative;
+}
+.collab {
+	font-size: 3.1rem;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	font-weight: bolder;
+	margin: 100px auto;
+	padding: 30px 0;
+}
+.copyright {
+	color: white;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 8px 0 8px 0;
+}
+.btn {
+	padding: 7px 7px;
+}
+.btn > img {
+	border-radius: 50%;
+	position: relative;
+	bottom: 2 	0px;
+}
+.nav-item > a {
+	color: #ecec55;
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 7px 20px;
+	text-transform: uppercase;
+}
+.header_section {
+	background-color: #2b2b2b;
+}
+#page2 h1 {
+    margin-bottom: 20px;
+}
+#page2 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#page2 li {
+    margin-bottom: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    position: relative;
+    overflow: hidden;
+}
+#page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+#page > img {
+    position: absolute;
+    right: 5%;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+#page > #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+}
+#center-nav {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+#center-nav > a {
+    text-decoration: none;
+    color: brown;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+#nav > input {
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    text-transform: uppercase;
+}
+#text {
+    padding: 30px 50px;
+    position: relative;
+    top: 18%;
+    left: 8%;
+    height: 75%;
+    width: 35%;
+    scale: 1.1;
+}
+#text > h1 {
+    font-size: 60px;
+    line-height: 1;
+    margin-top: 20px;
+}
+#text > h4 {
+    margin-top: 30px;
+    color: #2b2b2b;
+    font-size: 17px;
+    font-weight: 500;
+}
+#buttons {
+    margin-top: 20px; /* Added margin-top to place the resume button correctly */
+}
+#buttons > a {
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+#page1 {
+    position: relative;
+    min-height: 50vh; /* Adjusted to reduce height */
+    width: 100vw;
+    background-color: #929bb6;
+    padding: 20px; /* Reduced padding size */
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(242, 236, 235);
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#page1 > #right {
+    position: relative; /* Changed from absolute */
+    padding: 20px; /* Adjust padding if needed */
+    width: 100%;
+}
+#page2 {
+    position: relative;
+    min-height: 50vh; /* Adjusted to increase space */
+    width: 100vw;
+    background-color: #f8f9fa; /* Added background color */
+    padding: 20px;
+}
+#page2 .box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#page2 h1 {
+    margin-bottom: 20px;
+}
+#page2 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#page2 li {
+    margin-bottom: 10px;
+}
